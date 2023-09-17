@@ -16,8 +16,8 @@
   .moreVet{
     background-color: #7bca9100;
     color: #007f5f00;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 40px;
     float: right;
     /* margin-right: 10%; */
     overflow: hidden;
@@ -27,7 +27,7 @@
   .moreVet:hover{
     background-color: #303170ca;
     color:#5a202e ;
-    width:250px ;
+    width:150px ;
     height: 300px;
     float: right;
   }
