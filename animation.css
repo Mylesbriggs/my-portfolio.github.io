@@ -1,0 +1,72 @@
+@keyframes slideinleft{
+  from{
+    transform: translateX(-400px);
+  }
+  to{
+    transform: translateX(0);
+  }
+
+}
+@keyframes bounceupdown{
+  from{
+    transform: translateY(-50px);
+  }
+  to{
+    transform: translateY(0px);
+  }
+}
+@keyframes secondslideinleft{
+  from{
+    transform: translateX(-400px);
+  }
+  to{
+    transform: translateX(0px);
+  }
+}
+
+  .myName { 
+    animation-name: slideinleft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in ;
+    animation-delay:0s ;
+    animation-iteration-count:1 ;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+  .animationdiv{
+    animation-name: slideinleft;
+    animation-duration: 4s;
+    animation-timing-function: ease-in ;
+    animation-delay:0s ;
+    animation-iteration-count:1 ;
+    animation-direction: normal;
+    animation-fill-mode: none;
+
+ }
+ .bounce{
+  animation-name: bounceupdown;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out ;
+    animation-delay:0s ;
+    animation-iteration-count:infinite ;
+    animation-direction: normal;
+    animation-fill-mode: none;
+} 
+.aCreative{
+  animation-name: slideinleft;
+    animation-duration: 3s;
+    animation-timing-function: ease-in ;
+    animation-delay:0s ;
+    animation-iteration-count:1 ;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+.idImage{
+  animation-name: slideinleft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in ;
+    animation-delay:0s ;
+    animation-iteration-count:1 ;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
